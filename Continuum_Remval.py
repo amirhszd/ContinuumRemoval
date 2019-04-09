@@ -137,7 +137,7 @@ class continuum_removal:
             for j in i:
                 ax.plot(self.find_near(self.feature_regions[count]),j,c)
                 count += 1
-                if count ==3:
+                if count == len(i):
                     count = 0                
         ax.set_xlabel(r"Wavelength $(nm)$")
         ax.set_ylabel(r"Reflectance")
