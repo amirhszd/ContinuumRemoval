@@ -1,8 +1,8 @@
 # ContinuumRemoval
 
-The Continuum Removal approach, applied by [https://www.sciencedirect.com/science/article/pii/S0034425798000844](url), enhances absorption features in spectroscopic measurements. This approach is extensively used in regression-type problems and attributes prediction.
+The Continuum Removal approach, applied by [Kokaly and Clark](https://www.sciencedirect.com/science/article/pii/S0034425798000844), enhances absorption features in spectroscopic measurements. This approach is extensively used in regression-type problems and attributes 
 
-The repository requires numpy and matplotlib library and runs smoothly in Python 3.X.
+The repository requires 'numpy' and 'matplotlib' library and runs smoothly in 'Python 3.X'.
 
 **How it works**
 
