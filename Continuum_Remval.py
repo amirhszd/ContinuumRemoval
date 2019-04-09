@@ -133,9 +133,9 @@ class continuum_removal:
         fig,ax=plt.subplots(nrows=1,ncols=1,figsize=(12,8))
         count = 0
         for i in self.curve:
-            c = np.random.rand(3,)
+            color = np.random.rand(3,)
             for j in i:
-                ax.plot(self.find_near(self.feature_regions[count]),j,c)
+                ax.plot(self.find_near(self.feature_regions[count]),j,c=color)
                 count += 1
                 if count == len(i):
                     count = 0                
