@@ -29,7 +29,7 @@ class continuum_removal:
     def __init__(self,spectra,wl_vector,feature_regions):
         self.spectra = spectra
 
-        if len(wl_vector)==1:
+        if len(wl_vector)!=1:
             self.wl = np.squeeze(wl_vector)
         else:
             self.wl = wl_vector
