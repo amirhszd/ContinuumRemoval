@@ -118,7 +118,7 @@ class continuum_removal:
         this function simply plots the original spectras
         """
         fig,ax=plt.subplots(nrows=1,ncols=1,figsize=(12,8))
-        ax.plot(self.wl,spectra.T)
+        ax.plot(self.wl,self.spectra.T)
         ax.set_xlabel(r"Wavelength $(nm)$")
         ax.set_ylabel(r"Reflectance")
         ax.set_title("Spectra")
