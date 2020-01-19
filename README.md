@@ -1,4 +1,5 @@
 # ContinuumRemoval
+[![DOI](https://zenodo.org/badge/180401442.svg)](https://zenodo.org/badge/latestdoi/180401442)
 
 The Continuum Removal approach, applied by [Kokaly and Clark](https://www.sciencedirect.com/science/article/pii/S0034425798000844), enhances absorption features in spectroscopic measurements. This approach is extensively used in regression-type problems and attributes 
 
